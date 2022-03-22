@@ -1,0 +1,28 @@
+{
+  "name": "tetris-tanks-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node start.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.4",
+    "babel-jest": "^26.1.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jest": "^26.1.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ws": "^7.3.1"
+  },
+  "jest": {
+    "verbose": false
+  }
+}
